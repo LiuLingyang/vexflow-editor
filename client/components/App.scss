@@ -1,0 +1,103 @@
+.input-item {
+  display: inline-block;
+  min-width: 50px;
+  max-width: 100%;
+  width: auto;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  vertical-align: middle;
+  img {
+    position: relative;
+    top: 2px;
+    max-height: 18px;
+    max-width: 18px;
+  }
+}
+
+.phone-bg {
+  position: relative;
+  width: 378px;
+  height: 763px;
+  background: url("../assets/img/phone.png") no-repeat;
+  background-size: contain;
+  .foot {
+    position: absolute;
+    width: 100%;
+    bottom: 85px;
+    padding: 0 25px;
+    .keyboard {
+      padding: 5px 0;
+      border-top: 1px solid #ddd;
+    }
+    .ant-row {
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .ant-btn {
+      padding: 0;
+      width: 100%;
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+
+.foot-fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+  .keyboard {
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+  }
+  .ant-row {
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .ant-btn {
+    padding: 0;
+    width: 100%;
+    img {
+      width: 30px;
+    }
+  }
+}
+
+.braft-emoticon-wrap {
+  position: relative;
+  img {
+    position: relative;
+    top: 4px;
+    width: auto;
+    max-width: 16px;
+    height: 16px;
+  }
+}
+.braft-emoticon-in-editor img {
+  width: auto;
+  max-width: 16px;
+  top: 4px;
+}
+.braft-emoticon-picker .braft-emoticons-list img {
+  width: auto;
+  max-width: 20px;
+}
+
+.ant-popover {
+  .ant-popover-inner-content {
+    padding: 0;
+  }
+  .ant-menu-item {
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+  }
+}

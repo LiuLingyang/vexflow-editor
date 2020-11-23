@@ -1,0 +1,62 @@
+a,
+.text-link {
+  cursor: pointer;
+  color: $link;
+  &:hover {
+    color: $blue;
+  }
+}
+
+// 字体颜色
+.text-blue {
+  color: $blue;
+}
+.text-red {
+  color: $red;
+}
+.text-warning {
+  color: $warning;
+}
+.text-yellow {
+  color: $yellow;
+}
+.text-white {
+  color: $white;
+}
+.text-black {
+  color: $black;
+}
+.text-dark {
+  color: $dark;
+}
+.text-gray {
+  color: $gray;
+}
+.text-green {
+  color: $green;
+}
+.text-link {
+  color: $link;
+  &:hover {
+    color: $blue;
+  }
+}
+
+// 背景颜色
+.bg-black {
+  background-color: $bg-black;
+}
+.bg-light {
+  background-color: $bg-light;
+}
+.bg-white {
+  background-color: $bg-white;
+}
+.bg-grey {
+  background-color: $bg-grey;
+}
+
+// 边框颜色
+.bd-grey {
+  border-color: $bd-grey;
+}

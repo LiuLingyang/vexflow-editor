@@ -1,0 +1,37 @@
+{
+  "id": "1257301",
+  "name": "rptx",
+  "font_family": "iconfont",
+  "css_prefix_text": "u-icn-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1261090",
+      "name": "angle-double-down",
+      "font_class": "double-down",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "822554",
+      "name": "angle-double-up",
+      "font_class": "double-up",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "4421132",
+      "name": "HOT",
+      "font_class": "hot",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3787766",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    }
+  ]
+}

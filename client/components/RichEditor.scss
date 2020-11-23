@@ -1,0 +1,55 @@
+.m-richEditor {
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  .upload {
+    position: absolute;
+    top: 0;
+    width: 72px;
+    height: 36px;
+    left: 0;
+    opacity: 0;
+  }
+  .bf-content {
+    height: auto;
+    min-height: 200px;
+    max-height: 500px;
+  }
+  .input-item {
+    cursor: not-allowed;
+    color: rgba(0, 0, 0, 0.25);
+    background: #f5f5f5;
+    border-color: #d9d9d9;
+  }
+}
+
+.m-dropdown-images {
+  color: #fff;
+  padding: 6px;
+  width: 500px;
+  background-color: #fff;
+  .ant-btn {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.extend-control-item {
+  .dropdown-content {
+    .dropdown-arrow,
+    .dropdown-content-inner {
+      background-color: #fff;
+    }
+    .braft-emoticon-picker:before,
+    .braft-emoticon-picker:after {
+      background: none;
+    }
+  }
+  .bfi-emoji:before {
+    content: "特殊字符";
+  }
+}

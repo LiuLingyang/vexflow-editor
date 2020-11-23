@@ -1,0 +1,13 @@
+.react-grid-item {
+  img {
+    width: 100%;
+    position: absolute;
+    top: -18px;
+    left: 0;
+  }
+}
+.react-grid-item-selected {
+  img {
+    background: #9edbf7;
+  }
+}
